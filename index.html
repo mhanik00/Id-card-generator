@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student id card generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1 class="title">Student Id Card Generator</h1>
+    </nav>
+
+    <div class="container">
+        <div class="top-img"> <img src="" alt="image" class="top-img"></div>
+   
+        
+        <div class="id-card-container">
+            <form id="id-card-form">
+                <div class="id-card-inputs">
+                    <div>
+                        <label for="name">Name :</label><br>
+                        <input type="text" id="name" placeholder="Enter your name" required> <br><br>
+        
+                        <label for="fatherName">Father Name :</label><br>
+                        <input type="text" id="fatherName" placeholder="Enter your father name"> <br><br>
+        
+                        <label for="motherName">Mother Name :</label><br>
+                        <input type="text" id="motherName" placeholder="Enter your mother name"> <br><br>
+        
+                        <label for="class">Class :</label><br>
+                        <input type="number" id="class" placeholder="Enter your class"> <br><br>
+        
+                        <label for="roll">Roll :</label><br>
+                        <input type="number" id="roll" placeholder="Enter your roll" required> <br><br>
+        
+                       
+                    </div>
+                   
+                    <div>
+                        <label for="session">Session :</label><br>
+                        <input type="number" id="session" placeholder="Enter your session" required> <br><br>
+
+                        <label for="section">Section :</label><br>
+                        <input type="text" id="section" placeholder="Enter your section" required></label><br><br>
+        
+                       <label for="birthday">Date of Birth :</label><br>
+                       <input type="date" id="birthday" required> <br><br>
+        
+                       <label for="gender">Gender :</label><br>
+                        <input type="radio" name="gender" value="male" required>
+                        <label for="male">Male</label><br>
+                        <input type="radio" name="gender" value="female" required>
+                        <label for="female">Female</label> <br><br>
+        
+                        <label for="image">Image :</label><br>
+                        <input type="file" id="image" accept="image/*"  required>
+                    </div>
+
+                </div>
+               
+            <div class="btn"><button class="generate-btn"onclick="generateID()">Generate id card</button> </div>
+              
+
+            </form>
+        </div>
+
+
+
+    </div>
+
+    <div id="idCard">
+
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-bar{
+    background-color: rgb(183, 255, 0);
+    margin-top: 0%;
+    padding: 7px;
+    text-align: center;
+}
+.container {
+    background-color: bisque;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+.top-img{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+}
+
+
+
+
+.id-card-inputs{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    background-color: aqua;
+    flex-wrap: wrap;
+}
+.btn{
+    text-align: center;
+}
+
+.genaret-btn{
+    padding: 5px 60px;
+}
+.generated-id-card{
+    background-color: black;
+    color: aquamarine;
+   
+    max-width: 400px;
+    min-height:400px;
+    margin: 10px auto;
+   padding: 10px;
+   border: none;
+   border-radius: 20px;
+}
+.generated-id-card-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.generate-img{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 2px solid white;
+  
+}
+/* .generated-id-card-details{
+    margin-top: 40px;
+} */
