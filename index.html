@@ -12,9 +12,6 @@
     </nav>
 
     <div class="container">
-        <div class="top-img"> <img src="" alt="image" class="top-img"></div>
-   
-        
         <div class="id-card-container">
             <form id="id-card-form">
                 <div class="id-card-inputs">
@@ -29,7 +26,7 @@
                         <input type="text" id="motherName" placeholder="Enter your mother name"> <br><br>
         
                         <label for="class">Class :</label><br>
-                        <input type="number" id="class" placeholder="Enter your class"> <br><br>
+                        <input type="number" id="ClassNumber" placeholder="Enter your class"> <br><br>
         
                         <label for="roll">Roll :</label><br>
                         <input type="number" id="roll" placeholder="Enter your roll" required> <br><br>
@@ -51,15 +48,15 @@
                         <input type="radio" name="gender" value="male" required>
                         <label for="male">Male</label><br>
                         <input type="radio" name="gender" value="female" required>
-                        <label for="female">Female</label> <br><br>
-        
-                        <label for="image">Image :</label><br>
-                        <input type="file" id="image" accept="image/*"  required>
+                        <label for="female">Female</label><br>
+                        <div class="btn"><button class="generate-btn"onclick="generateID()">Generate id card</button> </div>
+                        <!-- <label style="color: red;" for="image">image section is disable now ,<br>don't select any image :</label><br>
+                        <input type="file" id="image" accept="image/*" required> -->
                     </div>
 
                 </div>
                
-            <div class="btn"><button class="generate-btn"onclick="generateID()">Generate id card</button> </div>
+           
               
 
             </form>

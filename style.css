@@ -2,15 +2,18 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #5c5470; 
 }
 .nav-bar{
-    background-color: rgb(183, 255, 0);
+  
+    background: #dbd8e3; 
     margin-top: 0%;
-    padding: 7px;
+    padding: 5px;
     text-align: center;
 }
+
 .container {
-    background-color: bisque;
+   margin-top: 0%;   /* background: #403d4aa4;  */
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
@@ -23,6 +26,14 @@ body{
 
 
 }
+input{
+    padding:10px;
+    border: solid 1px #a0fe6ea4;
+    background: #403d4aa4; 
+    color: rgb(254, 255, 255);
+    border-radius: 10px;
+    margin: 3px;
+}
 
 
 
@@ -32,19 +43,29 @@ body{
     justify-content: space-between;
     margin: 10px;
     padding: 10px;
-    background-color: aqua;
+    background: #dbd8e3; 
     flex-wrap: wrap;
+    border: #5c5470 solid 1px;
+    border-radius: 10px
 }
 .btn{
     text-align: center;
 }
 
-.genaret-btn{
-    padding: 5px 60px;
+.generate-btn{
+    margin-top: 40px;
+    padding: 15px 60px;
+    border-radius: 10px;
+    border: none;
+    background: #ff7e67; 
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
 }
 .generated-id-card{
-    background-color: black;
-    color: aquamarine;
+    background: #35495e; 
+    color: white;
+    
    
     max-width: 400px;
     min-height:400px;
@@ -65,6 +86,9 @@ flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 15px;
   border-bottom: 2px solid white;
+  background: #347474; 
+  padding:5px 10px;
+  border-radius: 10px;
   
 }
 /* .generated-id-card-details{
