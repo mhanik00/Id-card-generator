@@ -53,7 +53,7 @@ function generateID() {
     Id.innerHTML = `
     <div class="generated-id-card">
     <div class="generate-img"><div><h3>Your school Name</h3>Ullapara,Sirajgong <h5>Contact: 017450361744</h5></div>
-    <img src="./images/th.jpeg" alt="image" class="generated-img"></div>
+    <img src="images/pngtree-scool-college-logo-victor-vector-png-image_6634445.png" alt="image" class="generated-img"></div>
     <h4 style="text-align: center;">Id Card</h4>
     <div class=" generated-id-card-container">
     <div class="generated-id-card-details">

@@ -94,6 +94,6 @@ input {
   border-radius: 10px;
   margin-top: 5px;
 }
-/* .generated-id-card-details{
-    margin-top: 40px;
-} */
+.generated-img{
+  height: 150px;
+}
