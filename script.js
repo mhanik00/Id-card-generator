@@ -1,6 +1,12 @@
+// !Javascript script for id card generator
+
+
+
+
+// *generate button function
 function generateID() {
     console.log("Generating id card");
-
+// *input values from user
     const Name = document.getElementById("name").value.trim();
     name.value = "";
 
@@ -12,7 +18,7 @@ function generateID() {
 
     const Class = document.getElementById("ClassNumber").value;
     ClassNumber.value = "";
-    
+
     if (Class <= 0) {
         alert("Enter valid class");
         return;
@@ -40,11 +46,9 @@ function generateID() {
 
     const gender = document.querySelector('input[name="gender"]:checked').value;
     const issueDate = new Date().toLocaleDateString();
+// ***************************************************************************************
 
-    const inputs = document.querySelectorAll('input');
-
-    // const image = document.getElementById("image").value;
-
+// * to display generated id card
     const Id = document.getElementById("idCard");
     Id.innerHTML = `
     <div class="generated-id-card">
